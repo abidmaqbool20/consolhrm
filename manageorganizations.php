@@ -32,9 +32,9 @@
 						</div>
 						<div class="panel-body bgbdy pd-0">
 							<div class="row mr-0 fltrclr" >
-								<div class="col-md-12">
-									<div class="col-md-3 pull-right"> 
-										<ul class="filteroptions">
+								<div class="col-md-12 d-flex">
+									<div class="col-md-4 ml-auto "> 
+										<ul class="pt-2 mr-0 pb-2">
 											<li class="d-inline-block col-sm-5 m-l-10 pr-0">
 												<select class="form-control">
 													<option>Abc </option>
@@ -42,21 +42,26 @@
 												</select> 
 											</li>
 											
-											<li class="d-inline-block m-l-10"> <a data-toggle="modal" data-target="#modal-dialog" class="btn btn-primary">
+											<li class="d-inline-block m-l-10">
+												<a data-toggle="modal" data-target="#myModal2" class="btn btn-primary">
 												<i class="fa fa-fw fa-plus"></i> Add Record</a>
-											 </li>
-											<li class="d-inline-block m-l-10"> <a class="btn btn-default mr-10 fltrbtn" href="javascript:;"><i class="fa fa-filter fa-lg"></i></a> </li>
-											<li class="d-inline-block m-l-10"> 	<a href="#" data-toggle="dropdown" class="text-muted"><i class="fa fa-ellipsis-h f-s-14"></i></a>
+											</li>
+											<li class="d-inline-block m-l-10"> 
+												<a class="btn btn-default mr-10 fltrbtn" href="javascript:;"><i class="fa fa-filter fa-lg"></i></a>
+											</li>
+											<li class="d-inline-block m-l-10"> 	
+												<a href="#" data-toggle="dropdown" class="text-muted"><i class="fa fa-ellipsis-h f-s-14"></i></a>
 											    <ul class="dropdown dropdown-menu">
 											       <li> <a href="#" class=""> <i class="fa fa-fw m-r-10 fa-eye"></i> View </a> </li>
 												   <li> <a href="#" class=""><i class="fa fa-pencil-alt m-r-10 fa-pencil"></i> Update  </a> </li>
 												   <li> <a href="#" class=""><i class="fa fa-fw m-r-10 fa-trash-alt fa-trash"></i> Delete</a> </li>
-											    </ul></li>
+											    </ul>
+											</li>
 										</ul>
 									</div>
-								 </div>
+								</div>
 							</div>
-							
+
 							<div class=" fltrdiv mt-2">
 								<div class="row pd-n ">
 									<div class="col-md-6" style="background-color: #f00; height:20px;"> 
@@ -170,9 +175,6 @@
 			}
 		});
 
-		  $('#modal-dialog').on('shown.bs.modal', function () {
-      $(".modal-backdrop.fade").hide();
-   })
 	});
 
  

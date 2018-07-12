@@ -16,7 +16,7 @@
 	<link href="assets/plugins/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" />
 	<!-- <link href="assets/plugins/font-awesome/5.0/css/fontawesome-all.min.css" rel="stylesheet" /> -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="http://code.ionicframework.com/1.3.3/css/ionic.min.css" rel="stylesheet" />
+	<!-- <link href="http://code.ionicframework.com/1.3.3/css/ionic.min.css" rel="stylesheet" /> -->
 	<link href="assets/plugins/animate/animate.min.css" rel="stylesheet" />
 	<link href="assets/css/apple/style.min.css" rel="stylesheet" />
 	<link href="assets/css/apple/style-responsive.min.css" rel="stylesheet" />
