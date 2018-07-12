@@ -1,0 +1,183 @@
+
+
+.navbar-logo i {
+    text-shadow: 3px -3px #b8daff;
+}
+.navbar-inverse .navbar-logo i {
+    text-shadow: 3px -3px #0d56a6;
+}
+.header .navbar-nav > li > a .label,
+.sidebar .nav > li.active > a, 
+.sidebar .nav > li.active > a:focus, 
+.sidebar .nav > li.active > a:hover,
+.navbar-nav > li > a .user-image.online:before,
+.page-sidebar-minified .sidebar .nav > li.has-sub.active:focus > a, 
+.page-sidebar-minified .sidebar .nav > li.has-sub.active:hover > a, 
+.page-sidebar-minified .sidebar .nav > li.has-sub.active > a,
+.label.label-theme,
+.btn.btn-scroll-to-top {
+    background: #007aff;
+}
+.navbar.navbar-inverse .navbar-brand {
+    color: #fff !important;
+}
+.text-theme,
+.header .navbar-logo,
+.sidebar .sub-menu > li.active > a:before {
+    color: #007aff;
+}
+
+
+/* Added in v1.5 */
+
+.gradient-enabled .sidebar .nav > li.active > a, 
+.gradient-enabled .sidebar .nav > li.active > a:focus, 
+.gradient-enabled .sidebar .nav > li.active > a:hover,
+.gradient-enabled.page-sidebar-minified .sidebar .nav > li.has-sub.active:focus > a, 
+.gradient-enabled.page-sidebar-minified .sidebar .nav > li.has-sub.active:hover > a, 
+.gradient-enabled.page-sidebar-minified .sidebar .nav > li.has-sub.active > a,
+.gradient-enabled .label.label-theme,
+.gradient-enabled .btn.btn-scroll-to-top,
+.gradient-enabled .top-menu .nav > li.active > a, 
+.gradient-enabled .top-menu .nav > li.active > a:focus, 
+.gradient-enabled .top-menu .nav > li.active > a:hover {
+	color: #fff !important;
+	background: #24d0f4;
+	background: -moz-linear-gradient(top,  #24d0f4 0%, #007aff 100%);
+	background: -webkit-linear-gradient(top,  #24d0f4 0%,#007aff 100%);
+	background: linear-gradient(to bottom,  #24d0f4 0%,#007aff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24d0f4', endColorstr='#007aff',GradientType=0 );
+}
+.pace-progress {
+    background: #007aff;
+}
+.pace .pace-activity {
+    border-top-color: #007aff;
+    border-left-color: #007aff;
+}
+
+
+/* Added in v1.9 */
+
+.top-menu .nav > li.active > a, 
+.top-menu .nav > li.active > a:focus, 
+.top-menu .nav > li.active > a:hover {
+    background: #007aff;
+}
+
+.pnlbrd {
+    border: 1px solid #daba2a;
+ 
+}
+.bgbdy {
+     background: url("assets/img/logo/bgimg.png");
+}
+.panelcolor {
+ background-color: #daba2a !important;   
+}
+.sidebarbclr, .sidebar-bg {
+    background-color: #2a2a4d !important;   
+}
+.sidebar .nav > li.active > a {
+     background-color: #daba2a !important;   
+}
+.panel-title {
+    font-size: 16px !important;
+}
+.tabcontent th, td{
+    text-align: center;
+    padding: 5px 20px !important;
+
+}
+.filteroptions  {
+    line-height: 30px;
+}
+.pr-0 {
+    padding-right: 0 !important;
+}
+/*Margin 0 */
+.mr-0 {
+    margin: 0!important;
+}
+/*padding 0 */
+.pd-0 {
+    padding: 0 !important;
+}
+/*Margin 0 */
+/*.r-p-0 {
+    padding: 0 !important;
+}*/
+.fltrclr {
+    background-color: #ffffff;
+    border-bottom: 1px solid #daba2a;
+}
+.pd-n{
+    padding: 0 10px 0 20px;
+
+}
+.fltrdiv {
+    display: none;
+}
+
+/*.widget-list-action {
+    top:45px !important;
+    left: 0px;
+    position: absolute;
+}*/
+
+
+
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+   /* .modal.left .modal-dialog,
+    .modal.right .modal-dialog {
+        position: fixed !important;
+        margin: auto !important;
+        width: 320px !important;
+        height: 100% !important;
+        -webkit-transform: translate3d(0%, 0, 0) !important;
+            -ms-transform: translate3d(0%, 0, 0) !important;
+             -o-transform: translate3d(0%, 0, 0) !important;
+                transform: translate3d(0%, 0, 0) !important;
+    }
+
+   
+    
+    .modal.left .modal-body,
+    .modal.right .modal-body {
+        padding: 15px 15px 80px !important;
+    }
+
+
+   
+/*Right*/
+   /* .modal.right.fade .modal-dialog {
+        right: -320px;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out !important;
+           -moz-transition: opacity 0.3s linear, right 0.3s ease-out !important;
+             -o-transition: opacity 0.3s linear, right 0.3s ease-out !important;
+                transition: opacity 0.3s linear, right 0.3s ease-out !important;
+    }
+    
+    .modal.right.fade.in .modal-dialog {
+        right: 0 !important;
+    }
+
+/* ----- MODAL STYLE ----- */
+   /* .modal-content {
+        border-radius: 0 !important;
+        border: none !important;
+    }
+
+    .modal-header {
+        border-bottom-color: #EEEEEE !important;
+        background-color: #FAFAFA !important;
+    }*/
+*/
+/* ----- v CAN BE DELETED v ----- */
+*/
