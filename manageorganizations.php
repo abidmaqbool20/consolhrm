@@ -169,14 +169,13 @@
 				});
 			}
 		});
+
+		  $('#modal-dialog').on('shown.bs.modal', function () {
+      $(".modal-backdrop.fade").hide();
+   })
 	});
- $(document).ready(function () {
 
-
-        $("#modal-dialog").appendTo("body");
-
-
-        });
+ 
 </script>
 <?php include("includes/footer.php"); ?>
 
@@ -185,27 +184,8 @@
 <!-- Bootstrap Model Start Here  -->
 
 
-	<div class="modal fade" id="modal-dialog">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h4 class="modal-title">Modal Dialog</h4>
-											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-										</div>
-										<div class="modal-body">
-											<p>
-												Modal body content here...
-											</p>
-										</div>
-										<div class="modal-footer">
-											<a href="javascript:;" class="btn btn-white" data-dismiss="modal">Close</a>
-											<a href="javascript:;" class="btn btn-success">Action</a>
-										</div>
-									</div>
-								</div>
-							</div>
 	<!-- Modal -->
-	<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+<!-- 	<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true" data-backdrop="false">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 
@@ -219,8 +199,8 @@
 					</p>
 				</div>
 
-			</div><!-- modal-content -->
-		</div><!-- modal-dialog -->
-	</div>
+			</div> --> <!-- modal-content -->
+		<!-- </div>--> <!-- modal-dialog -->
+	<!-- </div -->>
 	
 	
