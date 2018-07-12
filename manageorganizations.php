@@ -43,7 +43,7 @@
 											</li>
 											
 											<li class="d-inline-block m-l-10">
-												<a data-toggle="modal" data-target="#myModal2" class="btn btn-primary">
+												<a data-toggle="modal" data-target="#myModal" class="btn btn-primary">
 												<i class="fa fa-fw fa-plus"></i> Add Record</a>
 											</li>
 											<li class="d-inline-block m-l-10"> 
