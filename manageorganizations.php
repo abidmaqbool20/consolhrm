@@ -43,7 +43,7 @@
 											</li>
 											
 											<li class="d-inline-block m-l-10">
-												<a data-toggle="modal" data-target="#myModal" class="btn btn-primary">
+												<a data-toggle="modal" data-target="#RghtMdl" class="btn btn-primary">
 												<i class="fa fa-fw fa-plus"></i> Add Record</a>
 											</li>
 											<li class="d-inline-block m-l-10"> 
@@ -76,18 +76,105 @@
 								      <thead>
 								        <tr>
 								          <th><input type="checkbox" name="" id="checkall"></th>
-								          <th>Edit / Delete </th>
-								          <th>#</th>
-								          <th>Firstname</th>
-								          <th>Lastname</th>
-								          <th>Age</th>
+								          <th> Edit / Delete </th>
+								          <th> ORG ID</th>
+								          <th>Company Name</th>
+								          <th>Logo</th>
+								          <th>Address</th>
 								          <th>City</th>
+								          <th>State</th>
 								          <th>Country</th>
-								          <th>Sex</th>
-								          <th>Example</th>
-								          <th>Example</th>
-								          <th>Example</th>
-								          <th>Example</th>
+								          <th>Services</th>
+								          <th>NTN</th>
+								          <th>Phone #.</th>
+								          <th>Owner Name </th>
+								          <th>Email </th>
+								          <th>Password </th>
+								          <th>Mobile # </th>
+								      	</tr>
+								      	 <tr>
+								        
+								         
+										 <th>
+
+										 	<select class="default-select2 form-control">
+	                                            <optgroup label="Alaskan/Hawaiian Time Zone">
+	                                                <option value="AK">Alaska</option>
+	                                                <option value="HI">Hawaii</option>
+	                                            </optgroup>
+	                                            <optgroup label="Pacific Time Zone">
+	                                                <option value="CA">California</option>
+	                                                <option value="NV">Nevada</option>
+	                                                <option value="OR">Oregon</option>
+	                                                <option value="WA">Washington</option>
+	                                            </optgroup>
+	                                            <optgroup label="Mountain Time Zone">
+	                                                <option value="AZ">Arizona</option>
+	                                                <option value="CO">Colorado</option>
+	                                                <option value="ID">Idaho</option>
+	                                                <option value="MT">Montana</option>
+	                                                <option value="NE">Nebraska</option>
+	                                                <option value="NM">New Mexico</option>
+	                                                <option value="ND">North Dakota</option>
+	                                                <option value="UT">Utah</option>
+	                                                <option value="WY">Wyoming</option>
+	                                            </optgroup>
+	                                            <optgroup label="Central Time Zone">
+	                                                <option value="AL">Alabama</option>
+	                                                <option value="AR">Arkansas</option>
+	                                                <option value="IL">Illinois</option>
+	                                                <option value="IA">Iowa</option>
+	                                                <option value="KS">Kansas</option>
+	                                                <option value="KY">Kentucky</option>
+	                                                <option value="LA">Louisiana</option>
+	                                                <option value="MN">Minnesota</option>
+	                                                <option value="MS">Mississippi</option>
+	                                                <option value="MO">Missouri</option>
+	                                                <option value="OK">Oklahoma</option>
+	                                                <option value="SD">South Dakota</option>
+	                                                <option value="TX">Texas</option>
+	                                                <option value="TN">Tennessee</option>
+	                                                <option value="WI">Wisconsin</option>
+	                                            </optgroup>
+	                                            <optgroup label="Eastern Time Zone">
+	                                                <option value="CT">Connecticut</option>
+	                                                <option value="DE">Delaware</option>
+	                                                <option value="FL">Florida</option>
+	                                                <option value="GA">Georgia</option>
+	                                                <option value="IN">Indiana</option>
+	                                                <option value="ME">Maine</option>
+	                                                <option value="MD">Maryland</option>
+	                                                <option value="MA">Massachusetts</option>
+	                                                <option value="MI">Michigan</option>
+	                                                <option value="NH">New Hampshire</option>
+	                                                <option value="NJ">New Jersey</option>
+	                                                <option value="NY">New York</option>
+	                                                <option value="NC">North Carolina</option>
+	                                                <option value="OH">Ohio</option>
+	                                                <option value="PA">Pennsylvania</option>
+	                                                <option value="RI">Rhode Island</option>
+	                                                <option value="SC">South Carolina</option>
+	                                                <option value="VT">Vermont</option>
+	                                                <option value="VA">Virginia</option>
+	                                                <option value="WV">West Virginia</option>
+	                                            </optgroup>
+                                        </select>
+
+										  </th>
+								          <th>ORG ID</th>
+								          <th>Company Name</th>
+								          <th>Logo</th>
+								          <th>Address</th>
+								          <th>City</th>
+								          <th>State</th>
+								          <th>Country</th>
+								          <th>Services</th>
+								          <th>NTN</th>
+								          <th>Phone #.</th>
+								          <th>Owner Name </th>
+								          <th>Email </th>
+								          <th>Password </th>
+								          <th>Mobile # </th>
 								      	</tr>
 								      </thead>
 								      <tbody>
@@ -101,6 +188,9 @@
 												   <li> <a href="#" class=""><i class="fa fa-fw m-r-10 fa-trash-alt fa-trash"></i> Delete</a> </li>
 											    </ul>
 											</td>
+								          	<td>1</td>
+								          	<td>1</td>
+								          	<td>1</td>
 								          	<td>1</td>
 								          	<td>Anna</td>
 								          	<td>Pitt</td>
@@ -176,6 +266,7 @@
 		});
 
 	});
+
 
  
 </script>
